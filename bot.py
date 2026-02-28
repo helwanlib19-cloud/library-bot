@@ -1,7 +1,8 @@
+import os
 from telegram import Update, ReplyKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 
-TOKEN = "8743703786:AAFny6Lwlu4_DfsMeSmtqtAxLEQgocQiaFU"
+TOKEN = os.getenv("8743703786:AAFny6Lwlu4_DfsMeSmtqtAxLEQgocQiaFU")
 
 keyboard = [
     ["🔎 الفهرس الإلكتروني"],
